@@ -1,0 +1,107 @@
+*, body, h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+#main_container {
+    display: flex;
+}
+
+#main_left_container {
+    background-color: #1DA1F2;
+    width: 50%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_left_container p {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 46px 0;
+}
+
+#main_right_container {
+    width: 50%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#log_in_container {
+    font-size: 18px;
+    width: 36%;
+    color: #14171A;
+}
+
+#twitter_logo{
+    width: 70px;
+    margin: -10px 0 -15px -10px;
+}
+
+button#log_in {
+    float: right;
+    font-weight: bold;
+    font-size: 15px;
+    color: #1DA1F2;
+    background-color: white;
+    border-radius: 25px;
+    border: #1DA1F2 1px solid;
+    padding: 15px;
+    transition: ease 400ms;
+}
+button#log_in:hover{
+    background-color: rgb(231, 246, 255);
+}
+
+#log_in_container h3{
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+#log_in_container h2{
+    margin-top: 10px;
+}
+
+.btn{
+    width: 100%;
+    height: 35px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #1DA1F2;
+    background-color: white;
+    border-radius: 25px;
+    border: #1DA1F2 1px solid;
+}
+.btn:hover{
+    background-color: rgb(234, 247, 255);
+}
+#sign_up {    
+    background-color: #1DA1F2;
+    color: white;
+}
+#sign_up:hover {    
+    background-color: rgb(23, 119, 179);
+}
+
+footer ul{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 30em;
+    font-size: 13px;  
+    color: #bbb;
+    border-top: #bbb7 solid 1px;
+}
+
+footer ul li{
+    list-style: none;
+}
+
